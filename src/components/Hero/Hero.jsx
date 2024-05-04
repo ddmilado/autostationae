@@ -32,11 +32,10 @@ const Hero = ({ theme }) => {
               data-aos-delay="600"
               className="text-5xl lg:text-7xl font-semibold font-serif"
             >
-              Car Rental
+              Auto Station
             </h1>
             <p data-aos="fade-up" data-aos-delay="1000">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              veritatis explicabo quibusdam quae reprehenderit ab{" "}
+            Welcome to Auto Station, your premier destination for hassle-free car rentals! Whether you're planning a road trip, managing business travel, or simply need a ride about town, we've got you covered with a wide range of vehicles to choose from. Enjoy competitive rates, exceptional customer service, and an easy booking process. Drive with confidence and comfort by choosing Auto Station—where your journey begins.{" "}
             </p>
             <button
               data-aos="fade-up"

@@ -2,21 +2,21 @@ import React from "react";
 
 const testimonialData = [
   {
-    name: "Dilshad",
+    name: "John ",
     image: "",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "Effortless booking and stellar service! Auto Station made my business trip a breeze with their reliable and prompt service. Highly recommended!",
     aosDelay: "0",
   },
   {
-    name: "Satya",
-    image: "",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    name: "Sarah",
+    image: "https://res.cloudinary.com/dzh8mryxw/image/upload/v1714802493/premium_photo-1664442593321-24b9e3c69238_fltafy.avif",
+    description: "I've rented cars from many places in Dubai, but Auto Station offers the best prices and the most courteous staff. They made our family vacation stress-free and enjoyable!",
     aosDelay: "300",
   },
   {
-    name: "Sabir",
+    name: "Ahmed",
     image: "",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "From selection to return, everything was smooth and efficient. The car was in excellent condition and the staff was incredibly helpful. Auto Station is definitely my go-to car rental now!",
     aosDelay: "1000",
   },
 ];
@@ -35,8 +35,7 @@ const Testimonial = () => {
               What Our Clients Say About Us
             </p>
             <p data-aos="fade-up" className="text-center sm:px-44">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis iure consectetur tempora amet.
+            At Auto Station, we take pride in our service and nothing speaks louder than the feedback from our satisfied customers. Read their experiences to see why we are the preferred choice for car rentals in Dubai.
             </p>
           </div>
 
@@ -50,7 +49,7 @@ const Testimonial = () => {
               >
                 <div className="grid place-items-center ">
                   <img
-                    src="https://picsum.photos/200"
+                    src="https://res.cloudinary.com/dzh8mryxw/image/upload/v1714802331/photo-1592994238317-fcf75c5466fd_x4xzvr.avif"
                     alt=""
                     className="rounded-full w-20 h-20"
                   />

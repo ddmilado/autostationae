@@ -22,12 +22,10 @@ const About = () => {
                 About us
               </h1>
               <p data-aos="fade-up" className="leading-8 tracking-wide">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Aspernatur, magnam! Tenetur odio quo et maxime?
+              Welcome to Auto Station, your trusted car rental hub in vibrant Dubai! We offer a wide range of high-quality vehicles at competitive rates, ensuring a smooth ride whether you're here for business or leisure. With our commitment to top-notch service and convenience, Auto Station is dedicated to making your travels in Dubai seamless and enjoyable
               </p>
               <p data-aos="fade-up">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-                tempora.
+              Choose us for a hassle-free car rental experience!
               </p>
               <button data-aos="fade-up" className="button-outline">
                 Get Started

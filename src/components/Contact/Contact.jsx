@@ -12,8 +12,7 @@ const Contact = () => {
                 Let's collaborate on your upcoming car rental venture
               </h1>
               <p className="text-gray-400">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Exercitationem necessitatibus quasi et vel,{" "}
+              Whether you're a driver looking for employment or an individual aiming to rent out your vehicle, join us at Auto Station and let's drive success together. Reach out today to explore potential partnerships and opportunities!{" "}
               </p>
             </div>
             <div className="sm:grid sm:place-items-center">

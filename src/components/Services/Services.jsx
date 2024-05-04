@@ -10,7 +10,7 @@ const skillsData = [
       <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "At Auto Station, we ensure you receive the most competitive rates in the market, making your car rental experience not only superb but also cost-effective..",
     aosDelay: "0",
   },
   {
@@ -19,7 +19,7 @@ const skillsData = [
       <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "Time is precious, and safety is paramount. We provide a swift booking process and meticulously maintained vehicles to ensure you reach your destination promptly and safely.",
     aosDelay: "500",
   },
   {
@@ -28,7 +28,7 @@ const skillsData = [
       <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
     link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "Our team of professional drivers is knowledgeable and well-trained, offering you peace of mind with their expertise in navigation and commitment to customer care as they guide you through Dubai's bustling streets.",
     aosDelay: "1000",
   },
 ];

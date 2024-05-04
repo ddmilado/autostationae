@@ -33,20 +33,19 @@ const Footer = () => {
           {/* company Details */}
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3 font-serif">
-              Car Rental
+              Auto Station
             </h1>
             <p className="text-sm">
-              Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Possimus, voluptate.{" "}
+            Your trusted companion for hassle-free car rentals in Dubai. Contact us for the best rates and exceptional service. Let's drive your journey forward together!{" "}
             </p>
             <br />
             <div className="flex items-center gap-3">
               <FaLocationArrow />
-              <p>Noida, Uttar Pradesh</p>
+              <p>106, DBC Building, P.O Box 22122, Al Khubaisi Area, Dubai, Unite Arab Emirates.</p>
             </div>
             <div className="flex items-center gap-3 mt-3">
               <FaMobileAlt />
-              <p>+91 123456789</p>
+              <p>+971 55 7968867</p>
             </div>
             {/* Social Handle */}
             <div className="flex items-center gap-3 mt-6">

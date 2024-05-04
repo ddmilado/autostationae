@@ -27,21 +27,20 @@ const AppStoreBanner = () => {
               Get Started with our app
             </h1>
             <p data-aos="fade-up" className="text-center sm:px-20">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-              magnam harum accusantium odit?
+            Download the Auto Station app for a seamless car rental experience at your fingertips. Book, manage, and customize your rentals easily with real-time updates and exclusive app-only offers. Start your journey with us today—efficiency and convenience in one simple click!
             </p>
             <div
               data-aos="fade-up"
               className="flex flex-wrap justify-center items-center gap-4"
             >
-              <a href="#">
+              <a href="https://play.google.com/store/apps;?pli=1">
                 <img
                   src={PlayStoreImg}
                   alt=""
                   className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"
                 />
               </a>
-              <a href="#">
+              <a href="https://www.apple.com/ae/app-store/">
                 <img
                   src={AppStoreImg}
                   alt=""
