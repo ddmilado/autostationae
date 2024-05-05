@@ -2,6 +2,11 @@ import React from "react";
 import whiteCar from "../../assets/white-car.png";
 import car2 from "../../assets/car5.png";
 import car3 from "../../assets/car6.png";
+import chevy from "../../assets/chevy.png";
+import optima1 from "../../assets/optima1.png";
+import picanto1 from "../../assets/picanto1.png";
+import sonata1 from "../../assets/sonata1.png";
+
 
 const carList = [
   {
@@ -17,27 +22,27 @@ const carList = [
     aosDelay: "500",
   },
   {
-    name: "BMW UX",
+    name: "CHEVROLET",
     price: 100,
-    image: car3,
+    image: chevy,
     aosDelay: "1000",
   },
   {
-    name: "KIA UX",
+    name: "KIA OPTIMA",
     price: 140,
-    image: car2,
+    image: optima1,
     aosDelay: "500",
   },
   {
-    name: "BMW UX",
+    name: "KIA PICANTO",
     price: 100,
-    image: car3,
+    image: picanto1,
     aosDelay: "1000",
   },
   {
-    name: "KIA UX",
+    name: "HYUNDAI SONATA",
     price: 140,
-    image: car2,
+    image: sonata1,
     aosDelay: "500",
   },
   
@@ -76,7 +81,7 @@ const CarList = () => {
                 <div className="space-y-2">
                   <h1 className="text-primary font-semibold">{data.name}</h1>
                   <div className="flex justify-between items-center text-xl font-semibold">
-                    <p>${data.price}/Day</p>
+                    <p>AED {data.price}/Day</p>
                     <a href="#">Details</a>
                   </div>
                 </div>
