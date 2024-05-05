@@ -44,12 +44,18 @@ const App = () => {
     <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero theme={theme} />
-      <About />
-      <Services />
-      <CarList />
-      <Testimonial />
+      <section id="About"><About /></section>
+      <section id="Services"><Services /></section>
+      <section id="CarList"><CarList /></section>
+      <section id="Testimonial"><Testimonial /></section>
+      <section id="AppStoreBanner"><AppStoreBanner /></section>
+      <section id="Contact"><Contact /></section>
+      {/* <About /> */}
+      {/* <Services /> */}
+      {/* <CarList /> */}
+      {/* <Testimonial />
       <AppStoreBanner />
-      <Contact />
+      <Contact /> */}
       <Footer />
     </div>
   );

@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import carPng from "../../assets/car.png";
 import yellowCar from "../../assets/banner-car.png";
 import AOS from "aos";
+import AppStoreBanner from "../AppStoreBanner/AppStoreBanner";
+import CarList from "../CarList/CarList";
+import About from "../About/About";
 
 const Hero = ({ theme }) => {
   useEffect(() => {
@@ -25,7 +28,7 @@ const Hero = ({ theme }) => {
           </div>
           <div className="space-y-5 order-2 sm:order-1 sm:pr-32 ">
             <p data-aos="fade-up" className="text-primary text-2xl font-serif">
-              Effortless
+              
             </p>
             <h1
               data-aos="fade-up"
@@ -42,6 +45,7 @@ const Hero = ({ theme }) => {
               data-aos-delay="1500"
               onClick={() => {
                 AOS.refreshHard();
+                window.location.hash = "#AppStoreBanner"
               }}
               className="rounded-md bg-primary hover:bg-primary/80 transition duration-500 py-2 px-6 text-black"
             >

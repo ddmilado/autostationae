@@ -5,7 +5,9 @@ import car3 from "../../assets/car6.png";
 import chevy from "../../assets/chevy.png";
 import optima1 from "../../assets/optima1.png";
 import picanto1 from "../../assets/picanto1.png";
-import sonata1 from "../../assets/sonata1.png";
+import sonata2 from "../../assets/sonata2.png";
+import About from "../About/About";
+import AppStoreBanner from "../AppStoreBanner/AppStoreBanner";
 
 
 const carList = [
@@ -42,7 +44,7 @@ const carList = [
   {
     name: "HYUNDAI SONATA",
     price: 140,
-    image: sonata1,
+    image: sonata2,
     aosDelay: "500",
   },
   
@@ -94,7 +96,12 @@ const CarList = () => {
         </div>
         {/* End of car listing */}
         <div className="grid place-items-center mt-8">
-          <button data-aos="fade-up" className="button-outline">
+          <button data-aos="fade-up" 
+              onClick={() => {
+                AOS.refreshHard();
+                window.location.hash = "#AppStoreBanner"
+              }}
+          className="button-outline">
             Get Started
           </button>
         </div>

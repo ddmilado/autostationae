@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import { BiSolidSun, BiSolidMoon } from "react-icons/bi";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
-import ResponsiveMenu from "./ResponsiveMenu";
+import ResponsiveMenu from "./ResponsiveMenu"; 
+import AppStoreBanner from "../AppStoreBanner/AppStoreBanner";
+import CarList from "../CarList/CarList";
+import About from "../About/About";
 
 export const Navlinks = [
   {
@@ -12,17 +15,17 @@ export const Navlinks = [
   {
     id: 2,
     name: "CARS",
-    link: "/#cars",
+    link: "/#CarList",
   },
   {
     id: 3,
     name: "ABOUT",
-    link: "/#about",
+    link: "/#About",
   },
   {
     id: 4,
     name: "BOOKING",
-    link: "/#booking",
+    link: "/#AppStoreBanner",
   },
 ];
 const Navbar = ({ theme, setTheme }) => {

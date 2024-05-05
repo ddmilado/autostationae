@@ -1,5 +1,6 @@
 import React from "react";
 import CarPng from "../../assets/car1.png";
+import AppStoreBanner from "../AppStoreBanner/AppStoreBanner";
 
 const About = () => {
   return (
@@ -27,9 +28,16 @@ const About = () => {
               <p data-aos="fade-up">
               Choose us for a hassle-free car rental experience!
               </p>
-              <button data-aos="fade-up" className="button-outline">
-                Get Started
-              </button>
+              <button 
+  data-aos="fade-up" 
+  onClick={() => {
+    AOS.refresh();
+    window.location.hash = "#AppStoreBanner";  // Change this to the actual ID you need to navigate to
+  }}
+  className="button-outline"
+>
+  Get Started
+</button>
             </div>
           </div>
         </div>

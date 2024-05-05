@@ -18,7 +18,7 @@ const FooterLinks = [
   },
   {
     title: "Contact",
-    link: "/#contact",
+    link: "https://wa.me/971521699776",
   },
   // {
   //   title: "Blog",
