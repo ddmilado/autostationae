@@ -20,10 +20,10 @@ const FooterLinks = [
     title: "Contact",
     link: "/#contact",
   },
-  {
-    title: "Blog",
-    link: "/#blog",
-  },
+  // {
+  //   title: "Blog",
+  //   link: "/#blog",
+  // },
 ];
 const Footer = () => {
   return (
@@ -32,8 +32,11 @@ const Footer = () => {
         <div className=" grid md:grid-cols-3 py-5">
           {/* company Details */}
           <div className=" py-8 px-4 ">
-            <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3 font-serif">
+            <h1 className="sm:text-3xl text-m font-bold sm:text-left text-justify mb-3 flex items-center gap-3 font-serif">
               Auto Station
+            </h1>
+            <h1 className="sm:text-m text-m font-bold sm:text-left text-justify mb-3 flex items-center gap-3 font-serif">
+              by Paul Kitu Rental Car LLC
             </h1>
             <p className="text-sm">
             Your trusted companion for hassle-free car rentals in Dubai. Contact us for the best rates and exceptional service. Let's drive your journey forward together!{" "}
